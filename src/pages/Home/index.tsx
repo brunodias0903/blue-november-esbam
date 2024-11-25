@@ -1,9 +1,9 @@
-import PinkOctober from "../../assets/pink-october.jpeg";
+import BlueNovember from "../../assets/november_blue.jpg";
 import {
   HomeContainer,
   HomeContentContainer,
   HomeContentText,
-  HomePinkOctoberImg,
+  HomeBlueNovemberImg,
   HomeSubtitle,
   HomeTitle,
   HomeTitleContainer,
@@ -13,24 +13,26 @@ const Home = () => {
   return (
     <HomeContainer>
       <HomeTitleContainer>
-        <HomeTitle>OUTUBRO ROSA:</HomeTitle>
-        <HomeSubtitle>JUNTOS NA LUTA CONTRA O CÂNCER DE MAMA</HomeSubtitle>
+        <HomeTitle>Novembro Azul:</HomeTitle>
+        <HomeSubtitle>JUNTOS NA LUTA CONTRA O CÂNCER DE PRÓSTATA</HomeSubtitle>
       </HomeTitleContainer>
-      <HomePinkOctoberImg src={PinkOctober} />
+      <HomeBlueNovemberImg src={BlueNovember} />
       <HomeContentContainer>
         <HomeContentText>
-          O <strong style={{ color: "#fa2a8e" }}>Outubro Rosa</strong> é um
-          movimento global de conscientização sobre a importância da prevenção e
-          do diagnóstico precoce do câncer de mama. Durante todo o mês de
-          outubro, promovemos ações para educar e alertar as mulheres sobre os
-          cuidados com a saúde, incentivando a realização de exames regulares,
-          como a mamografia, que pode salvar vidas. <br />O câncer de mama é o
-          tipo mais comum entre as mulheres, mas a detecção precoce aumenta
-          significativamente as chances de cura. Por isso, fique atenta aos
-          sinais do seu corpo e mantenha seus exames em dia. Participe dessa
-          campanha, compartilhe essa mensagem e ajude a salvar vidas. <br />
+          O <strong style={{ color: "#1E90FF" }}>Novembro azul</strong> é um
+          movimento global dedicado a conscientizar sobre a importância da
+          prevenção e do diagnóstico precoce do câncer de próstata. Durante todo
+          o mês de novembro, realizamos ações para informar e alertar os homens
+          sobre os cuidados com a saúde, incentivando a realização de exames
+          regulares, como o PSA e o toque retal, que podem salvar vidas. O
+          câncer de próstata é o tipo mais comum entre os homens, mas a detecção
+          precoce aumenta significativamente as chances de tratamento e cura.
+          Por isso, esteja atento aos sinais do seu corpo, mantenha seus exames
+          em dia e converse com um médico regularmente. Participe desta
+          campanha, compartilhe essa mensagem e ajude a promover a saúde
+          masculina. Juntos, podemos salvar vidas! <br />
           <br />{" "}
-          <strong style={{ color: "#fa2a8e" }}>
+          <strong style={{ color: "#1E90FF" }}>
             PREVINA-SE! CUIDAR DE SI É UM ATO DE AMOR.
           </strong>
         </HomeContentText>

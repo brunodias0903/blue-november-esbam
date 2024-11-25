@@ -10,8 +10,10 @@ export const HomeContainer = styled.div`
   gap: 2vh;
 `;
 
-export const HomePinkOctoberImg = styled.img`
+export const HomeBlueNovemberImg = styled.img`
   width: 40vh;
+  border-radius: 12px;
+  border: 2px solid #1E90FF;
 
   @media (max-width: 768px) {
     width: 35vh;
@@ -29,7 +31,7 @@ export const HomeTitleContainer = styled.div`
 export const HomeTitle = styled.h1`
   font-size: 2rem;
 
-  color: #fa2a8e;
+  color: #1E90FF;
 `;
 
 export const HomeSubtitle = styled.p`
@@ -38,7 +40,7 @@ export const HomeSubtitle = styled.p`
 
   text-align: center;
 
-  color: #fa2a8e;
+  color: #1E90FF;
 `;
 
 export const HomeContentContainer = styled.div`

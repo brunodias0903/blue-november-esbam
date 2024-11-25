@@ -7,7 +7,7 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-  gap: 2vh;
+  gap: 3vh;
 `;
 
 export const CardContainer = styled.section`
@@ -18,10 +18,18 @@ export const CardContainer = styled.section`
   gap: 2vh;
 `;
 
-export const AboutPinkOctoberImg = styled.img`
+export const ContainerAboutProstata = styled.div`
   width: 85vh;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 
   @media (max-width: 768px) {
     width: 40vh;
   }
 `;
+
+export const TitleAboutProstata = styled.h1`
+  color: #1E90FF;
+  margin-bottom: 1rem;
+`

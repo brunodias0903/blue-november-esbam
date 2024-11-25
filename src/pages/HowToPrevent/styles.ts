@@ -4,31 +4,56 @@ export const HowToPreventContainer = styled.div`
   flex: 1;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
   padding: 1vh 3.5vh;
+  margin-top: 2rem;
 
-  gap: 2vh;
+  gap: 4vh;
 
   @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
 
-export const CustomHowToPreventImage = styled.img`
-  width: 72.6vh;
+export const TitlePrevent = styled.h1`
+  color: #1e90ff;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+`;
+
+export const HowToPreventImage = styled.img`
+  width: 56vh;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
 
   @media (max-width: 768px) {
-    width: 35vh;
+    width: 45vh;
   }
 `;
 
-export const CustomSignalsImage = styled.img`
-  width: 55vh;
+export const SectionSignals = styled.section`
+  width: 80vh;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 16px;
+
+  .list-sintomas {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+
+    li {
+      font-size: 0.9rem;
+      margin: 8px;
+    }
+
+    li::marker {
+      color: gray;
+    }
+  }
 
   @media (max-width: 768px) {
-    width: 33vh;
+    width: 45vh;
   }
 `;
