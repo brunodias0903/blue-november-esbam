@@ -1,38 +1,30 @@
 import PinkOctober from "../../assets/pink-october-2.jpg";
-import CustomCard from "../../components/CustomCard";
+import HoverCard from "../../components/HoverCard";
 import { AboutContainer, AboutPinkOctoberImg, CardContainer } from "./styles";
 
-const About = () => {
+// import images
+import imageSexuality from "../../assets/sexualidade.jpg";
+import imageMentalHealth from "../../assets/saude_mental.jpg";
+import imageDoencas from "../../assets/doencas.jpg";
+
+const About: React.FC = () => {
   return (
     <AboutContainer>
       <CardContainer>
-        <CustomCard
-          backgroundColor="#f06292"
-          title="Nossa luta"
-          content="O Outubro Rosa é uma campanha de conscientização realizada
-              anualmente, com o objetivo de alertar sobre a importância da
-              prevenção e do diagnóstico precoce do câncer de mama. Esse
-              movimento teve início nos Estados Unidos na década de 1990 e,
-              desde então, expandiu-se mundialmente."
+        <HoverCard
+          imageSrc={imageMentalHealth}
+          content="É hora de superar os tabus e preconceitos que cercam a saúde mental masculina. A frase homem não chora reflete a ideia equivocada de que os homens não devem mostrar fragilidades ou expressar emoções. Infelizmente, isso leva muitos homens a reprimir seus sentimentos, prejudicando a si mesmos e às pessoas ao seu redor."
+          titleCard="Saude Mental"
         />
-
-        <CustomCard
-          backgroundColor="#ad1457"
-          title="Seus direitos"
-          content="Pacientes com câncer possuem diversos direitos garantidos por lei
-              – tanto de acesso à saúde quantos sociais – que às vezes
-              desconhece. Uma vez desrespeitados, o paciente pode tomar as
-              providências cabíveis e exigir o seu cumprimento."
+        <HoverCard
+          imageSrc={imageSexuality}
+          content="O tratamento do câncer de próstata pode impactar a vida sexual devido a efeitos colaterais como redução da libido, desmotivação ou depressão. No entanto, é possível manter uma vida sexual ativa durante esse período, aproveitando a oportunidade para redescobrir e explorar novas sensibilidades do corpo."
+          titleCard="Sexualidade"
         />
-
-        <CustomCard
-          backgroundColor="#733849"
-          title="Convivendo com câncer"
-          content="Durante a descoberta do câncer de mama, é normal que não só a vida da
-          paciente como também da família e dos amigos sejam afetadas. Se você é
-          membro da família, amigo ou cuidador de alguém com câncer de mama é
-          importante que você saiba lidar com os desafios da doença juntamente
-          com seu ente querido."
+        <HoverCard
+          imageSrc={imageDoencas}
+          content="Homens apresentam altos índices de mortalidade e menor expectativa de vida devido à baixa adesão aos cuidados preventivos, influenciada por tabus e sentimento de invulnerabilidade. Doenças cardiovasculares, cânceres (próstata, pulmão), doenças cerebrovasculares, infecções e cirrose hepática estão entre as principais causas de morte. Fatores como tabagismo, consumo excessivo de álcool, sedentarismo e alimentação inadequada aumentam os riscos."
+          titleCard="Doenças que mais matam homens"
         />
       </CardContainer>
 
