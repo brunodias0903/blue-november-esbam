@@ -3,13 +3,9 @@ import { FindHelpContainer, FindHelpP, FindHelpTitle } from "./styles";
 const FindHelp = () => {
   return (
     <FindHelpContainer>
-      <FindHelpTitle>Busque Ajuda – Outubro Rosa em Manaus</FindHelpTitle>
+      <FindHelpTitle>Busque Ajuda – Novembro Azul em Manaus</FindHelpTitle>
       <FindHelpP>
-        <br />O diagnóstico precoce do câncer de mama pode salvar vidas, e
-        buscar ajuda é um passo essencial para garantir o cuidado necessário. Em
-        Manaus, diversas instituições oferecem suporte, orientação e serviços de
-        saúde para ajudar mulheres em todas as etapas da prevenção e do
-        tratamento. Conheça abaixo alguns locais onde você pode encontrar ajuda:{" "}
+        <br />O diagnóstico precoce do câncer de próstata pode salvar vidas, e buscar ajuda é um passo essencial para garantir o cuidado necessário. Em Manaus, diversas instituições oferecem suporte, orientação e serviços de saúde para ajudar homens em todas as etapas da prevenção e do tratamento. Conheça abaixo alguns locais onde você pode encontrar ajuda:{" "}
         <br /> <br />
         1.{" "}
         <strong>

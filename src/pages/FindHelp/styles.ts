@@ -11,7 +11,7 @@ export const FindHelpContainer = styled.div`
 
 export const FindHelpTitle = styled.h1`
   font-size: 1.5rem;
-  color: #fa2a8e;
+  color:  #1E90FF;
 `;
 
 export const FindHelpP = styled.p`
