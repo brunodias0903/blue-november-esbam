@@ -1,9 +1,9 @@
 import BlueNovember from "../../assets/november_blue.jpg";
 import {
+  HomeBlueNovemberImg,
   HomeContainer,
   HomeContentContainer,
   HomeContentText,
-  HomeBlueNovemberImg,
   HomeSubtitle,
   HomeTitle,
   HomeTitleContainer,
@@ -15,8 +15,8 @@ const Home = () => {
       <HomeTitleContainer>
         <HomeTitle>Novembro Azul:</HomeTitle>
         <HomeSubtitle>JUNTOS NA LUTA CONTRA O CÂNCER DE PRÓSTATA</HomeSubtitle>
+        <HomeBlueNovemberImg src={BlueNovember} />
       </HomeTitleContainer>
-      <HomeBlueNovemberImg src={BlueNovember} />
       <HomeContentContainer>
         <HomeContentText>
           O <strong style={{ color: "#1E90FF" }}>Novembro azul</strong> é um

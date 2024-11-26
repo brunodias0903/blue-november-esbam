@@ -19,17 +19,17 @@ export const CardContainer = styled.section`
 `;
 
 export const ContainerAboutProstata = styled.div`
-  width: 85vh;
+  width: 100vh;
   padding: 1rem;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
 
   @media (max-width: 768px) {
-    width: 40vh;
+    width: 65vh;
   }
 `;
 
 export const TitleAboutProstata = styled.h1`
-  color: #1E90FF;
+  color: #1e90ff;
   margin-bottom: 1rem;
-`
+`;
