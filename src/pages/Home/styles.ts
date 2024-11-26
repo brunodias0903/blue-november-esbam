@@ -65,6 +65,10 @@ export const HomeContentContainer = styled.div`
   display: flex;
   align-items: center;
 
+  @media (max-width: 1024px){
+    margin-left: 15px;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -74,6 +78,10 @@ export const HomeContentText = styled.p`
   font-size: 1.3rem;
   color: #000000;
   text-align: center;
+
+  @media (max-width: 1024px){
+    font-size: 1.2rem;
+  }
 
   @media (max-width: 768px) {
     font-size: 1rem;
