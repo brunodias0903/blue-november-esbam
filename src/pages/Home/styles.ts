@@ -7,7 +7,17 @@ export const HomeContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-right: 10vh;
+  padding-right: 15vh;
+
+  
+
+  @media (max-width: 1170px) {
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 0;
+
+    min-height: 100vh;
+  }
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -22,7 +32,7 @@ export const HomeBlueNovemberImg = styled.img`
   border: 2px solid #1e90ff;
 
   @media (max-width: 768px) {
-    width: 35vh;
+    width: 80%;
     margin-bottom: 2vh;
   }
 `;
@@ -33,12 +43,15 @@ export const HomeTitleContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
 `;
 
 export const HomeTitle = styled.h1`
   font-size: 2rem;
 
   color: #1e90ff;
+
 `;
 
 export const HomeSubtitle = styled.p`
@@ -65,10 +78,6 @@ export const HomeContentContainer = styled.div`
   display: flex;
   align-items: center;
 
-  @media (max-width: 1024px){
-    margin-left: 15px;
-  }
-
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -76,11 +85,11 @@ export const HomeContentContainer = styled.div`
 
 export const HomeContentText = styled.p`
   font-size: 1.3rem;
-  color: #000000;
+  color: #000;
   text-align: center;
 
-  @media (max-width: 1024px){
-    font-size: 1.2rem;
+  @media (max-width: 1024px) {
+    font-size: 1rem;
   }
 
   @media (max-width: 768px) {
