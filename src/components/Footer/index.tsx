@@ -1,14 +1,15 @@
+import { esbamWebsite, gitHubBruno, gitHubEduardo } from "../../constants";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { FooterContainer, FooterText } from "./styles";
 
 const Footer = () => {
+  const { width } = useWindowDimensions();
+
   return (
     <FooterContainer>
       <FooterText>
         &copy; 2024{" "}
-        <a
-          href="https://github.com/brunodias0903"
-          style={{ cursor: "pointer" }}
-        >
+        <a href={gitHubBruno} style={{ cursor: "pointer" }}>
           <FooterText
             style={{
               margin: "0px 5px",
@@ -16,11 +17,11 @@ const Footer = () => {
               textDecoration: "underline",
             }}
           >
-            BRUNO DIAS
+            {width && width > 768 ? "BRUNO DIAS" : "BRUNO"}
           </FooterText>
         </a>{" "}
         ,{" "}
-        <a href="https://github.com/edulira17" style={{ cursor: "pointer" }}>
+        <a href={gitHubEduardo} style={{ cursor: "pointer" }}>
           <FooterText
             style={{
               margin: "0px 5px",
@@ -28,11 +29,11 @@ const Footer = () => {
               textDecoration: "underline",
             }}
           >
-            EDUARDO LIRA
+            {width && width > 768 ? "EDUARDO LIRA" : "EDUARDO"}
           </FooterText>
         </a>{" "}
         &{" "}
-        <a href="https://esbam.edu.br/" style={{ cursor: "pointer" }}>
+        <a href={esbamWebsite} style={{ cursor: "pointer" }}>
           <FooterText
             style={{
               marginLeft: "5px",
