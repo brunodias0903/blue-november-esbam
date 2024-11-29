@@ -19,6 +19,18 @@ const Footer = () => {
             BRUNO DIAS
           </FooterText>
         </a>{" "}
+        ,{" "}
+        <a href="https://github.com/edulira17" style={{ cursor: "pointer" }}>
+          <FooterText
+            style={{
+              margin: "0px 5px",
+              fontWeight: "bold",
+              textDecoration: "underline",
+            }}
+          >
+            EDUARDO LIRA
+          </FooterText>
+        </a>{" "}
         &{" "}
         <a href="https://esbam.edu.br/" style={{ cursor: "pointer" }}>
           <FooterText
